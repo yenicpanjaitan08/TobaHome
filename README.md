@@ -19,11 +19,14 @@ TobaHome adalah sebuah sistem informasi homestay yang dibangun agar dapat memper
     - Jika tidak menggunakan Git, silakan **Download Zip** dan *extract* pada direktori web server (misal: xampp/htdocs)
 2. `cd TobaHome`
 3. `composer install`
-4. `cp .env.example .env`
+4. `composer require hootlex/laravel-moderation`
+5. Pada Provider config >> app.php file tambahkan `Hootlex\Moderation\ModerationServiceProvider::class,`
+6. publish Config File dengan `php artisan vendor:publish --provider="Hootlex\Moderation\ModerationServiceProvider" --tag=confi`
+7. `cp .env.example .env`
     - Jika tidak menggunakan Git rename file `.env.example` menjadi `.env`
-5. Pada terminal `php artisan key:generate`
-6. Buat **database pada mysql** untuk sistem ini
-7. **Setting database** pada file `.env`
+8. Pada terminal `php artisan key:generate`
+9. Buat **database pada mysql** untuk sistem ini
+10. **Setting database** pada file `.env`
     ```
     DB_CONNECTION=mysql
     DB_HOST=localhost
@@ -32,11 +35,11 @@ TobaHome adalah sebuah sistem informasi homestay yang dibangun agar dapat memper
     DB_USERNAME=root
     DB_PASSWORD=
     ```
-8. `php artisan migrate` atau dapat dengan import database tobahome_db.sql yang telah dilampirkan pada code
-9. `php artisan serve`
-10. Untuk Web admin dapat dilihat dari repository berikut " https://github.com/yenicpanjaitan08/Dashboard-Admin-TobaHome "dan jalankan sesuai langkah yang sudah tertera.
+11. `php artisan migrate` atau dapat dengan import database tobahome_db.sql yang telah dilampirkan pada code
+12. `php artisan serve`
+13. Untuk Web admin dapat dilihat dari repository berikut " https://github.com/yenicpanjaitan08/Dashboard-Admin-TobaHome "dan jalankan sesuai langkah yang sudah tertera.
 
-11. Selesai
+14. Selesai
 
 <hr>
 
