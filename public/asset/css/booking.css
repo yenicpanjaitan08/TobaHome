@@ -1,0 +1,337 @@
+.container-booking {
+    background-color: rgb(255, 255, 255);
+    width: 80%;
+    margin: auto;
+    overflow: hidden
+}
+
+.header {
+    width: 65%;
+    margin-top: 5%
+}
+
+.header h1 {
+    width: 60%;
+    font-size: 40px
+}
+
+.header ul {
+    width: 35%;
+    list-style: none;
+    margin-right: 5%;
+    vertical-align: bottom;
+    text-align: right
+}
+
+.header ul li {
+    display: inline-block;
+    margin-right: 15%;
+    font-weight: bold;
+    cursor: pointer
+}
+
+.header ul li:last-of-type {
+    font-weight: normal;
+    color: #C1C1C1;
+    margin-right: 8%
+}
+
+.fl-left {
+    float: left;
+}
+
+.fl-right {
+    float: right;
+}
+
+.clearfix {
+    clear: both;
+}
+
+.ffamily {
+    text-transform: uppercase;
+    font-size: 12px
+}
+
+.rooms {
+    width: 60%;
+    margin: 2% 5% 1% 0;
+    background-color: #FFF
+}
+
+.rooms section {
+    margin: 5% 0;
+}
+
+.rooms .img {
+    width: 15%;
+    margin-right: 10%;
+}
+
+.rooms .img img {
+    max-width: 220px;
+    max-height: 220px;
+    position: relative;
+    left: -75px
+}
+
+.rooms .room-data {
+    width: 30%;
+    margin-right: 15%;
+    margin-bottom: 8%
+}
+
+.rooms .room-data h3 {
+    margin-bottom: 3%
+}
+
+.rooms .room-data .text {
+    margin-bottom: 3%;
+    text-transform: none;
+    color: #C1C1C1;
+}
+
+.rooms .room-data ul {
+    list-style: none;
+    margin-top: 20%;
+    margin-bottom: 20%
+}
+
+.rooms .room-data ul li {
+    margin-top: 5%;
+    font-size: 15px;
+    text-transform: none
+}
+
+.rooms .room-data ul li:before {
+    content: "\f0c8";
+    margin-right: 7%;
+    font-family: 'FontAwesome';
+    color: #F8B420
+}
+
+.rooms .room-data .arrow {
+    margin-bottom: 10%;
+    padding: 5%;
+    font-weight: bold;
+    cursor: pointer
+}
+
+.rooms .room-data .arrow:before {
+    content: "\f178";
+    float: left;
+    font-size: 14px;
+    margin-right: 6%;
+    color: #F8B420;
+    font-family: 'FontAwesome';
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out
+}
+
+.rooms .room-data .arrow:hover:before {
+    transform: translateX(10px);
+    color: #D59D24;
+    -webkit-transition: all 0.3s ease-in-out;
+    -moz-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out
+}
+
+.rooms .rates{
+  width:30%
+}
+
+.rooms .rates p:first-of-type {
+    margin-right: 22%;
+    text-transform: none;
+    color: #F8B420;
+    font-size: 12px;
+    margin-bottom: 3%;
+    text-align: right
+}
+
+.rooms .rates p:first-of-type span {
+    font-size: 18px;
+    margin-left: 5%;
+    letter-spacing: 1.6;
+    color: #F8B420
+}
+
+.rooms .rates p:last-of-type {
+    margin-right: 22%;
+    color: #C1C1C1;
+    text-align: right
+}
+
+.rooms .rates button {
+    margin-top: 75%;
+    padding: 5% 11%;
+    text-align: center;
+    border-radius: 5px;
+    border: none;
+    font-family: 'Arial Narrow', Arial, sans-serif;
+    text-transform: uppercase;
+    letter-spacing: 1.4;
+    background-color: #D59D24;
+    color: #FFF;
+    font-size: 15px;
+    cursor: pointer;
+    outline: none;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out
+}
+
+.rooms .rates button:hover {
+    background-color: #F8B420;
+    -webkit-transition: all 0.2s ease-in-out;
+    -moz-transition: all 0.2s ease-in-out;
+    transition: all 0.2s ease-in-out
+}
+
+.container-Carousel {
+    background-color:#e2eaef;
+    width: 100%;
+    margin: auto;
+    overflow: hidden
+}
+
+.carousel {
+	margin: 50px auto;
+	padding: 0 70px;
+}
+
+.carousel .item {
+	color: #747d89;
+	min-height: 325px;
+    text-align: center;
+	overflow: hidden;
+}
+.carousel .thumb-wrapper {
+	padding: 25px 15px;
+	background: #fff;
+	border-radius: 6px;
+	text-align: center;
+	position: relative;
+	box-shadow: 0 2px 3px rgba(0,0,0,0.2);
+}
+.carousel .item .img-box {
+	height: 200px;
+	margin-bottom: 20px;
+	width: 100%;
+	position: relative;
+}
+.carousel .item img {	
+	max-width: 100%;
+    max-height: 100%;
+	display: inline-block;
+	position: absolute;
+	bottom: 0;
+	margin: 0 auto;
+	left: 0;
+	right: 0;
+}
+.carousel .item h4 {
+	font-size: 18px;
+}
+.carousel .item h4, .carousel .item p, .carousel .item ul {
+	margin-bottom: 5px;
+}
+.carousel .thumb-content .btn {
+	color: #7ac400;
+    font-size: 11px;
+    text-transform: uppercase;
+    font-weight: bold;
+    background: none;
+    border: 1px solid #7ac400;
+    padding: 6px 14px;
+    margin-top: 5px;
+    line-height: 16px;
+    border-radius: 20px;
+}
+.carousel .thumb-content .btn:hover, .carousel .thumb-content .btn:focus {
+	color: #fff;
+	background: #7ac400;
+	box-shadow: none;
+}
+.carousel .thumb-content .btn i {
+	font-size: 14px;
+    font-weight: bold;
+    margin-left: 5px;
+}
+.carousel .carousel-control {
+	height: 44px;
+	width: 40px;
+	background: #7ac400;	
+    margin: auto 0;
+    border-radius: 4px;
+	opacity: 0.8;
+}
+.carousel .carousel-control:hover {
+	background: #78bf00;
+	opacity: 1;
+}
+.carousel .carousel-control i {
+    font-size: 36px;
+    position: absolute;
+    top: 50%;
+    display: inline-block;
+    margin: -19px 0 0 0;
+    z-index: 5;
+    left: 0;
+    right: 0;
+    color: #fff;
+	text-shadow: none;
+    font-weight: bold;
+}
+.carousel .item-price {
+	font-size: 13px;
+	padding: 2px 0;
+}
+.carousel .item-price strike {
+	opacity: 0.7;
+	margin-right: 5px;
+}
+.carousel .carousel-control.left i {
+	margin-left: -2px;
+}
+.carousel .carousel-control.right i {
+	margin-right: -4px;
+}
+.carousel .carousel-indicators {
+	bottom: -50px;
+}
+.carousel-indicators li, .carousel-indicators li.active {
+	width: 10px;
+	height: 10px;
+	margin: 4px;
+	border-radius: 50%;
+	border: none;
+}
+.carousel-indicators li {	
+	background: rgba(0, 0, 0, 0.2);
+}
+.carousel-indicators li.active {	
+	background: rgba(0, 0, 0, 0.6);
+}
+.carousel .wish-icon {
+	position: absolute;
+	right: 10px;
+	top: 10px;
+	z-index: 99;
+	cursor: pointer;
+	font-size: 16px;
+	color: #abb0b8;
+}
+
+.carousel .wish-icon .fa-heart .carousel-control:hover {
+	color: #ff6161;
+}
+
+.star-rating li {
+	padding: 0;
+}
+.star-rating i {
+	font-size: 14px;
+	color: #ffc000;
+}
